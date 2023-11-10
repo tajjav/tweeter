@@ -23,10 +23,3 @@ header {
   font-size: 1.2em;
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 1024px) {
-  header {
-    width: 33.3333%;
-    height: 400px;
-  }
-}

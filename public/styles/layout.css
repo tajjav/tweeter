@@ -39,3 +39,8 @@ body {
  .container {
   margin: auto;
 }
+
+.below-nav {
+  display:flex;
+  justify-content:space-around; /*why it is not working */
+}

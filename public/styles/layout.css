@@ -18,8 +18,24 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
 }
+
+.container {
+  width: 90%;
+  background-color: #f4f1ec;
+  align-self: center;
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+ body {
+  font-family: 'Source Sans 3', sans-serif;
+ }
+
+ .container {
+  margin: auto;
+}

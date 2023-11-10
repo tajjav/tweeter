@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: burlywood;
+  background-image: url("../images/asfalt-light.png");
+  height: 520px;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.profile-pic {
+  max-width: 200px;
+}
+
+.profile-pic img {
+  width: 100%;
+}
+
+.profile-name {
+  font-size: 1.2em;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  header {
+    width: 33.3333%;
+    height: 400px;
+  }
+}

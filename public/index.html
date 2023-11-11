@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
   <link rel="stylesheet" href="/styles/header.css" type="text/css"/>
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css"/>
+  <link rel="stylesheet" href="/styles/tweet-list.css" type="text/css"/>
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -29,6 +30,7 @@
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
   <script type="text/javascript" src="/scripts/composer-char-counter.js" ></script>
+ 
 </head>
 
 <body>
@@ -40,17 +42,19 @@
       <i class="fa-solid fa-angles-down"></i>
     </div>
   </nav>
-  <div class="below-nav">
-    <header>
+  <!-- profile -->
+  <div class="content">
+    <header class="header">
       <div class="profile-pic">
         <img src="/images/profile-hex.png"> 
-      </div><br>
-      <div>
-          <h2><span class="profile-name">Tauqeer</span> Javaid</h2>
+      </div>
+      <div class="profile-name">
+          <p><strong >Tauqeer</strong> Javaid</p>
       </div>
     </header>
     <!-- Page-specific (main) content here -->
     <main class="container">
+      <!-- compose tweet -->
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form method="post" action="/tweets/">
@@ -61,6 +65,32 @@
           </div>
         </form>
       </section>
+      <!-- Tweets List -->
+      <section class="tweet-container">
+        <article class="tweet">
+          <header>
+            <ul>
+              <div class="user-info">
+                <li class="user-picture"><img src="/images/face-avatar.png" alt="beautiful face avatar" /></li>
+                <li class="user-name">Newton</li>
+              </div>
+              <li class="tweeter-handle">@SirIssac</li>
+            </ul>
+          </header>
+          <textarea name="text" readonly id="tweet-text">If I have seen further it is by standing on the shoulders of giants"</textarea>
+          <footer>
+            <ul>
+              <li>10 days ago</li>
+              <div class="icons">
+                <li><i class="fa-solid fa-flag"></i></li>
+                <li><i class="fa-solid fa-retweet"></i></li>
+                <li><i class="fa-sharp fa-solid fa-heart"></i></li>
+              </div>
+            </ul>
+          </footer>
+          </article>
+      </section>
+
     </main>
   </div>
 </body>

@@ -1,0 +1,89 @@
+.tweet-container {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+}
+
+.tweet:hover {
+  box-shadow: 5px 5px rgb(175, 174, 174);
+}
+
+.tweet {
+  border: 4px solid #545149;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  padding-right: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tweet footer ul {
+  padding-inline-start: 25px;
+}
+
+.tweet header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info > li {
+  font-weight: 400;
+}
+
+.user-info img {
+  width: 100%;
+  text-align: left;
+}
+
+.user-picture {
+  margin-top: -20px;
+}
+
+.user-name {
+  padding-left: 15px;
+}
+
+.tweeter-handle {
+  color: rgba(64, 86, 161, 0.5);
+}
+
+.tweet textarea {
+  width: 99%;
+  margin-left: 20px;
+  border-width: 0px 0px 3px 0px;
+  border-color: #545149;
+  background-color: #f4f1ec;
+  resize: none;
+  font-weight: bold;
+  color: #545149;
+}
+
+.tweet footer ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75em;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons i:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.icons li {
+  padding: 0px 5px;
+  color: #4056a1;
+}

@@ -40,7 +40,8 @@ body {
   margin: auto;
 }
 
-.below-nav {
+.content {
   display:flex;
+  flex-direction: column;
   justify-content:space-around; /*why it is not working */
 }

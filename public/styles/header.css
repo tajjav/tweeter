@@ -1,25 +1,30 @@
-header {
+.header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
 
   background-color: burlywood;
   background-image: url("../images/asfalt-light.png");
-  height: 520px;
+  height: 400px;
   width: 100%;
-  margin-top: 120px;
+
 }
 
-.profile-pic {
+/* .profile-pic {
   max-width: 200px;
-}
+} */
 
 .profile-pic img {
-  width: 100%;
+  width: 8em;
 }
 
 .profile-name {
   font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.profile-name p {
+  margin: 0;
 }
 

@@ -1,0 +1,14 @@
+.error-message {
+  display: none;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 1.25em;
+  border: 5px solid red;
+  margin: 45px 0px;
+  padding: 10px;
+}
+
+.error-message::before, .error-message::after{
+  content: "⚠ ";
+  padding: 10px;
+}

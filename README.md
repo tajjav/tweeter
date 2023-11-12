@@ -5,7 +5,7 @@ Tweeter is a simple, single-page Twitter clone.
 It is build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
 
 ## Screenshots
-
+![Mainpage of the tweeter app - desktop version](https://github.com/tajjav/tweeter/blob/master/public/images/tweeter-desktop.png)
 ## Dependencies
 
 - Express

@@ -78,7 +78,7 @@ $(document).ready(function () {
     const errorMessage = $(".error-message").css("display");
 
     if (tweetLength <= 140) {
-      if (errorMessage !== "none") {                               //check it
+      if (errorMessage !== "none") {
         $(".error-message").slideUp("slow");
         return;
       }

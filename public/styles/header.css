@@ -1,19 +1,16 @@
 .header {
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content:center;
   align-items: center;
 
   background-color: burlywood;
   background-image: url("../images/asfalt-light.png");
   height: 400px;
   width: 100%;
+  margin-top: 120px;
 
 }
-
-/* .profile-pic {
-  max-width: 200px;
-} */
 
 .profile-pic img {
   width: 8em;
@@ -28,3 +25,11 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 30%;
+    height: 400px;
+    margin-top: 140px;
+    margin-left: 40px;
+  }
+}

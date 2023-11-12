@@ -45,3 +45,17 @@ body {
   flex-direction: column;
   justify-content:space-around; /*why it is not working */
 }
+
+@media screen and (min-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+  }
+  .container {
+    width: 60%;
+    margin: 40px;
+    padding-top: 60px;
+  }
+}

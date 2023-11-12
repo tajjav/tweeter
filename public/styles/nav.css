@@ -1,7 +1,7 @@
 nav {
   height: 120px;
   width: 100%;
-  background-color: #4056A1;
+  background-color: burlywood;
   color: #FFFFFF;
 
   display: flex;
@@ -25,4 +25,10 @@ nav .right {
 }
 nav i {
   color: rgba(255, 0, 0);
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    background-color: #4056A1;
+  }
 }

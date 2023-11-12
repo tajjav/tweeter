@@ -7,6 +7,7 @@ It is build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end s
 ## Screenshots
 ![Mainpage of the tweeter app - desktop version](https://github.com/tajjav/tweeter/blob/master/public/images/tweeter-desktop.png)
 ![Mainpage of the tweeter app - cellphone version](https://github.com/tajjav/tweeter/blob/master/public/images/tweeter-cellphone.png)
+![Tweeter app main page showing the error message](https://github.com/tajjav/tweeter/blob/master/public/images/tweeter-errorscreen.png)
 ## Dependencies
 
 - Express
